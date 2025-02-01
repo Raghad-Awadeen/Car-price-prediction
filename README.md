@@ -11,9 +11,9 @@ This project aims to develop **machine learning models** to predict **used car p
 The dataset contains detailed information on used cars, including:  
 ✔ **Make & Model**  
 ✔ **Year of Manufacture**  
-✔ **Mileage & Condition**  
-✔ **Fuel Type & Transmission**  
-✔ **Selling Price**  
+✔ **cylinders & Condition**  
+✔ **Fuel Type & title_status**  
+✔ **Price**  
 
 🔗 **Access the dataset here:** [Kaggle Competition](https://www.kaggle.com/competitions/used-car-price-prediction-competition/overview)  
 
@@ -35,12 +35,11 @@ The dataset contains detailed information on used cars, including:
    - Scale numerical features for better model performance.  
 
 2️⃣ **Model Development & Training**  
-   - Train multiple ML models: **Linear Regression, Decision Tree, Random Forest, XGBoost**.  
+   - Train multiple ML models: ** Random Forest, XGBoost,Adaboost,KNN**.  
    - Tune hyperparameters for better accuracy.  
 
 3️⃣ **Performance Evaluation**  
-   - Compare models using **R² Score, RMSE, and MAE**.  
-   - Select the best-performing model for final predictions.  
+   - Compare models using ** RMSE**.  
 
 4️⃣ **Insights & Recommendations**  
    - Identify key factors influencing used car prices.  
@@ -53,7 +52,6 @@ The dataset contains detailed information on used cars, including:
    - **Brand, year of manufacture, and mileage** have the highest impact.  
 
 2️⃣ **Which model performed best?**  
-   - **XGBoost outperformed other models** with an RMSE of **X.X**.  
 
 3️⃣ **How can businesses use this model?**  
    - **Optimize pricing strategies** to maximize profit.  
